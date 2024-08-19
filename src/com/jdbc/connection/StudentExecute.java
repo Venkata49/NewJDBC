@@ -125,10 +125,13 @@ try {
 		
 		
 	}
+	
+//	GetAll() Operation...
+	
 	public void getAll() {
 		
 		System.out.println("getall data into Student data :");
-try {
+		try {
 			
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/data","root","tiger");
